@@ -42,7 +42,7 @@ You may use the video game you develop for:
 
 1. Submission should be a link to a GitHub repositiory. 
 2. Site must be hosted on GitHub Pages. 
-3. If need any assistance with this, please follow instructions on GitHub document attached. 
+3. If need any assistance with this, please follow instructions on SETTIUNG.md document attached. 
 
 **Setting Up VS Code Git & GitHub**
 If you need assistance with this please see SETTINGUP.md
