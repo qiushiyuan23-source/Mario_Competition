@@ -14,15 +14,17 @@ Brief:
 Your task is to make a new video game based on the original Mario game provided. 
 It must contain: 
 Unique sounds, skins, abilities, functionality, levels, etc. 
+
 Requirements:
-•	Must be fun!
-•	Must be hosted on GitHub pages, with link. 
-•	Must be open source. 
-•	Must contain a full read me. 
-•	Must be fun and interactive
-•	Must be bug free
-•	Must make use of open-source assets or assets you have developed yourself. 
-•	Must make good use of version control -git add * git commit -m'update' git push often
+- Must be fun!
+- Must be hosted on GitHub pages, with link. 
+- Must be open source. 
+- Must contain a full read me. 
+- Must be fun and interactive
+- Must be bug free
+- Must make use of open-source assets or assets you have developed yourself. 
+- Must make good use of version control -git add * git commit -m'update' git push often
+
 Once complete, we will also need to make a trailer for your game. 
 
 **Teams:**
