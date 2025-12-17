@@ -46,6 +46,7 @@ resources.onReady(init);
 var level;
 var sounds;
 var music;
+var musicStarted = false;
 
 //initialize
 var lastTime;
@@ -100,6 +101,12 @@ function update(dt) {
 
 function handleInput(dt) {
   if (player.piping || player.dying || player.noInput) return; //don't accept input
+
+  // Start music on first key press
+  if (!musicStarted && (input.isDown('RUN') || input.isDown('JUMP') || input.isDown('LEFT') || input.isDown('RIGHT') || input.isDown('DOWN'))) {
+    music.overworld.play();
+    musicStarted = true;
+  }
 
   if (input.isDown('RUN')){
     player.run();

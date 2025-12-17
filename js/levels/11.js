@@ -214,6 +214,7 @@ var oneone = Mario.oneone = function() {
   level.putKoopa(35, 11);
 
   music.underground.pause();
-  // music.overworld.currentTime = 0;
-  music.overworld.play();
+  music.overworld.pause();
+  music.overworld.currentTime = 0;
+  musicStarted = false; // Reset flag so music can start on next key press
 };
